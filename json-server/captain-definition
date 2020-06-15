@@ -1,8 +1,8 @@
 {
-  "schemaVersion" :1 ,
+  "schemaVersion" : 2,
   "dockerfileLines" :[
                         "FROM clue/json-server",
-                        "COPY ./src /data",
+                        "COPY ./ /data",
                         "EXPOSE 80"
                     ]
  }
